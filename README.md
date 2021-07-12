@@ -25,3 +25,5 @@ Para la función llamada *demodulador* se crea un vector para la señal demodula
 
 Finalmente se le brinda la frecuencia de la portadora (en este caso se asigna 5kHz), el número de muestras por periodo (20) y la relación señal ruido (SNR) que en este caso se le asignó un valor de 35, lo que quiere decir que la potencia de la señal y la potencia del ruido poseen una ligera diferencia. Las imágenes transmitida y recibida fueron las siguientes, con un total de al rededor de 500 errores para un BER = 0.
 
+![](https://github.com/MigueZamo98/Proyecto4/blob/main/recuperado.png)
+
