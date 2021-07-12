@@ -6,11 +6,12 @@
 
 ---
 ### Proyecto 4
+#### Segundo Semestre 2021
 
 * Estudiante: **Miguel Zamora Torres**
 * Carné: **B78542**
 * Grupo: **2**
-### Segundo Semestre 2021
+
 ---
 
 ### Documentación de la solución
@@ -27,3 +28,16 @@ Finalmente se le brinda la frecuencia de la portadora (en este caso se asigna 5k
 
 ![](https://github.com/MigueZamo98/Proyecto4/blob/main/recuperado.png)
 
+La señales obtenidas se aprecian acontinuación, donde la señal roja corresponde a la señal cuadrada modulada, la verde a la señal modulada por 16_QAM, la azul a la señal Tx más ruido y la morada a la señal demodulada.
+
+![](https://github.com/MigueZamo98/Proyecto4/blob/main/señales.png)
+
+En las pruebas de estacionaridad y ergodicidad a la señal modulada senal_Tx se crea un algoritmo que nos brinde los resultados esperados según la teoría y la nota teórica del proyecto para la señal modulada por 16_QAM, en resumen, se obtienen todas las posibles combinaciones según los valores que puede tomar A (1 y -1) y para todos los tiempos del muestreo, estos valores se guardan en una matriz llamada X_t, se grafican y se obtienen los valores teóricos y esperados, para la media se obtiene el siguiente gráfico.
+
+![](https://github.com/MigueZamo98/Proyecto4/blob/main/proceso.png)
+
+Como se puede observar, el valor esperado teórico coincide con el valor esperado de las realizaciones, el cual es constante, además se sabe por teoría que un proceso aleatorio se dice que es estacionario si ninguna de sus propiedades estadísticas cambian con el tiempo, por lo tanto se puede concluir que esta señal es estacionaria en sentido amplio, también se sabe que la ergodicidad establece la igualdad entre el promedio estadístico y el promedio temporal de un proceso aleatorio, algo que se puede deducir de esta gráfica.
+
+Finalmente, para la densidad espectral de potencia, se puede observar que el pico más importante está ubicado en 5kHz, la cual fue la frecuencia fc definida, los otros picos, que se encuentran a ambos lados de 5kHz son los compenentes de frecuencia de la moduladora.
+
+![](https://github.com/MigueZamo98/Proyecto4/blob/main/densidad.png)
